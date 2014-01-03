@@ -14,7 +14,7 @@ public class PersonController {
 	public ModelAndView get(){
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.addObject("person", new Person());
-		modelAndView.setViewName("addPerson.jsp");
+		modelAndView.setViewName("addPerson");
 		return modelAndView;
 	}
 	
